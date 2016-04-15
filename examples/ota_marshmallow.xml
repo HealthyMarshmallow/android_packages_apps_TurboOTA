@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TurboOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-        <A0001>
+        <d850>
             <Filename>Turbo-d850-3.3-OFFICIAL-04-07-2016</Filename>
             <RomUrl
                 id="rom"
@@ -15,6 +15,6 @@
                 id="xda"
                 title="XDA"
                 description="Visit the Turbo ROM d850 thread">http://forum.xda-developers.com/att-lg-g3/development/rom-turbo-rom-layers-t3346467</XDAUrl>
-	</A0001>
+	</d850>
     </Stable>
 </TurboOTA>
