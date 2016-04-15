@@ -25,7 +25,7 @@ import com.turborom.turboota.tasks.CheckUpdateTask;
 public class OTAService extends WakefulIntentService {
 
     public OTAService() {
-        super("SlimOTA");
+        super("TurboOTA");
     }
 
     @Override

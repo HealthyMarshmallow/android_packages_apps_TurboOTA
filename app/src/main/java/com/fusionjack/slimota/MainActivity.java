@@ -23,22 +23,22 @@ import android.view.MenuItem;
 
 import com.turborom.turboota.configs.LinkConfig;
 import com.turborom.turboota.dialogs.WaitDialogFragment;
-import com.turborom.turboota.fragments.SlimOTAFragment;
+import com.turborom.turboota.fragments.TurboOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = SlimOTAFragment.class.getName();
-    private SlimOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = TurboOTAFragment.class.getName();
+    private TurboOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (SlimOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (TurboOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new SlimOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new TurboOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 

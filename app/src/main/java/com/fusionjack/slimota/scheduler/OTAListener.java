@@ -38,11 +38,11 @@ public class OTAListener implements WakefulIntentService.AlarmListener {
     public void scheduleAlarms(AlarmManager alarmManager, PendingIntent pendingIntent, Context context) {
         mIntervalValue = AppConfig.getUpdateIntervalTime(context);
         if (mIntervalValue > 0) {
-            OTAUtils.logInfo("SlimOTA is scheduled for every: " + mIntervalValue + " ms");
+            OTAUtils.logInfo("TurboOTA is scheduled for every: " + mIntervalValue + " ms");
             alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,
                     SystemClock.elapsedRealtime() + 60000, mIntervalValue, pendingIntent);
         } else {
-            OTAUtils.logInfo("SlimOTA is disabled");
+            OTAUtils.logInfo("TurboOTA is disabled");
         }
     }
 

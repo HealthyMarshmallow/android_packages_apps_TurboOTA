@@ -36,7 +36,7 @@ import com.turborom.turboota.xml.OTALink;
 
 import java.util.List;
 
-public class SlimOTAFragment extends PreferenceFragment implements
+public class TurboOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,
