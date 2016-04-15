@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.configs;
+package com.turborom.turboota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.turborom.slimota.R;
-import com.turborom.slimota.scheduler.OTAListener;
-import com.turborom.slimota.utils.OTAUtils;
+import com.turborom.turboota.R;
+import com.turborom.turboota.scheduler.OTAListener;
+import com.turborom.turboota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

@@ -1,1 +1,1 @@
--keep class com.turborom.slimota.core.OTAListener
+-keep class com.turborom.turboota.core.OTAListener

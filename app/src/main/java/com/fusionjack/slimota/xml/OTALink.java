@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.xml;
+package com.turborom.turboota.xml;
 
 public class OTALink {
 

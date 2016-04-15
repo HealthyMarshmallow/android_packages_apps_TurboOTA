@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.dialogs;
+package com.turborom.turboota.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.turborom.slimota.R;
+import com.turborom.turboota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 

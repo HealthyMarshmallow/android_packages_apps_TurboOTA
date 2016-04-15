@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.tasks;
+package com.turborom.turboota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.turborom.slimota.MainActivity;
-import com.turborom.slimota.R;
-import com.turborom.slimota.configs.AppConfig;
-import com.turborom.slimota.configs.LinkConfig;
-import com.turborom.slimota.configs.OTAConfig;
-import com.turborom.slimota.configs.OTAVersion;
-import com.turborom.slimota.dialogs.WaitDialogHandler;
-import com.turborom.slimota.utils.OTAUtils;
-import com.turborom.slimota.xml.OTADevice;
-import com.turborom.slimota.xml.OTAParser;
+import com.turborom.turboota.MainActivity;
+import com.turborom.turboota.R;
+import com.turborom.turboota.configs.AppConfig;
+import com.turborom.turboota.configs.LinkConfig;
+import com.turborom.turboota.configs.OTAConfig;
+import com.turborom.turboota.configs.OTAVersion;
+import com.turborom.turboota.dialogs.WaitDialogHandler;
+import com.turborom.turboota.utils.OTAUtils;
+import com.turborom.turboota.xml.OTADevice;
+import com.turborom.turboota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -154,8 +154,8 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
         Notification.Builder builder = new Notification.Builder(context);
         builder.setContentTitle(context.getString(R.string.notification_title));
         builder.setContentText(context.getString(R.string.notification_message));
-        builder.setSmallIcon(R.drawable.ic_notification_slimota);
-        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_slimota));
+        builder.setSmallIcon(R.drawable.ic_notification_turboota);
+        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_turboota));
 
         Intent intent = new Intent(context, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

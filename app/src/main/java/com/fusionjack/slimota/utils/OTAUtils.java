@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.utils;
+package com.turborom.turboota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.turborom.slimota.configs.OTAConfig;
+import com.turborom.turboota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.File;

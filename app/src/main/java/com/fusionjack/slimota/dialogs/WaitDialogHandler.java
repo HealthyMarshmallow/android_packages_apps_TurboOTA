@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.dialogs;
+package com.turborom.turboota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

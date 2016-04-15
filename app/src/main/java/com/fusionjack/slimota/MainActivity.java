@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota;
+package com.turborom.turboota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.turborom.slimota.configs.LinkConfig;
-import com.turborom.slimota.dialogs.WaitDialogFragment;
-import com.turborom.slimota.fragments.SlimOTAFragment;
+import com.turborom.turboota.configs.LinkConfig;
+import com.turborom.turboota.dialogs.WaitDialogFragment;
+import com.turborom.turboota.fragments.SlimOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.configs;
+package com.turborom.turboota.configs;
 
 import android.content.Context;
 
-import com.turborom.slimota.utils.OTAUtils;
+import com.turborom.turboota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

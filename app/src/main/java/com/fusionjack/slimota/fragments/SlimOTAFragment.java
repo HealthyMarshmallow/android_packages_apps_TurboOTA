@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.fragments;
+package com.turborom.turboota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.turborom.slimota.R;
-import com.turborom.slimota.configs.AppConfig;
-import com.turborom.slimota.configs.LinkConfig;
-import com.turborom.slimota.configs.OTAVersion;
-import com.turborom.slimota.dialogs.WaitDialogFragment;
-import com.turborom.slimota.tasks.CheckUpdateTask;
-import com.turborom.slimota.utils.OTAUtils;
-import com.turborom.slimota.xml.OTALink;
+import com.turborom.turboota.R;
+import com.turborom.turboota.configs.AppConfig;
+import com.turborom.turboota.configs.LinkConfig;
+import com.turborom.turboota.configs.OTAVersion;
+import com.turborom.turboota.dialogs.WaitDialogFragment;
+import com.turborom.turboota.tasks.CheckUpdateTask;
+import com.turborom.turboota.utils.OTAUtils;
+import com.turborom.turboota.xml.OTALink;
 
 import java.util.List;
 
@@ -59,7 +59,7 @@ public class SlimOTAFragment extends PreferenceFragment implements
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
 
-        addPreferencesFromResource(R.xml.slimota);
+        addPreferencesFromResource(R.xml.turboota);
 
         mRomInfo = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_ROM_INFO);
         mCheckUpdate = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_CHECK_UPDATE);

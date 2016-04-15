@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.scheduler;
+package com.turborom.turboota.scheduler;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -25,8 +25,8 @@ import android.net.NetworkInfo;
 import android.os.SystemClock;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.turborom.slimota.configs.AppConfig;
-import com.turborom.slimota.utils.OTAUtils;
+import com.turborom.turboota.configs.AppConfig;
+import com.turborom.turboota.utils.OTAUtils;
 
 public class OTAListener implements WakefulIntentService.AlarmListener {
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.turborom.slimota.scheduler;
+package com.turborom.turboota.scheduler;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.turborom.slimota.tasks.CheckUpdateTask;
+import com.turborom.turboota.tasks.CheckUpdateTask;
 
 public class OTAService extends WakefulIntentService {
 
