@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.fragments;
+package com.turborom.slimota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.fusionjack.slimota.R;
-import com.fusionjack.slimota.configs.AppConfig;
-import com.fusionjack.slimota.configs.LinkConfig;
-import com.fusionjack.slimota.configs.OTAVersion;
-import com.fusionjack.slimota.dialogs.WaitDialogFragment;
-import com.fusionjack.slimota.tasks.CheckUpdateTask;
-import com.fusionjack.slimota.utils.OTAUtils;
-import com.fusionjack.slimota.xml.OTALink;
+import com.turborom.slimota.R;
+import com.turborom.slimota.configs.AppConfig;
+import com.turborom.slimota.configs.LinkConfig;
+import com.turborom.slimota.configs.OTAVersion;
+import com.turborom.slimota.dialogs.WaitDialogFragment;
+import com.turborom.slimota.tasks.CheckUpdateTask;
+import com.turborom.slimota.utils.OTAUtils;
+import com.turborom.slimota.xml.OTALink;
 
 import java.util.List;
 
