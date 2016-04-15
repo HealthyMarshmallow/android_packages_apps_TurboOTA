@@ -1,7 +1,7 @@
 #
 # OTA XML
 #
-# See ota_lollipop.xml for example
+# See ota_marshmallow.xml for example
 #
 # Note:
 # * Multiple devices can be added in the xml file
@@ -9,7 +9,7 @@
 #
 ota_url=https://www.dropbox.com/s/u2k60hvjn2c02h0/ota_lollipop.xml?dl=1
 release_type=Stable
-device_name=ro.product.device
+device_name=ro.turbo.device
 
 #
 # VERSION
@@ -32,7 +32,7 @@ device_name=ro.product.device
 # Version position: 3 (zero based)
 # Version format:
 #
-version_source=ro.modversion
+version_source=ro.turbo.version
 version_delimiter=-
 version_position=3
 version_format=yyyyMMdd
