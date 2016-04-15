@@ -1,6 +1,6 @@
 TurboOTA
 -------
-A very simple OTA checker with Android Settings look and feel.
+A very simple OTA checker with Android settings look and feel.
 
 How it works
 ------------
@@ -9,9 +9,9 @@ If the version is newer, it notifies the user for a new ROM update.
 
 How to use
 ----------
-* Prepare the OTA xml file. Use this [template](https://raw.githubusercontent.com/SlimSaber/packages_apps_TurboOTA/lp5.0/examples/ota_lollipop.xml).
+* Prepare the OTA xml file. Use this [template](https://raw.githubusercontent.com/TurboROM/packages_apps_TurboOTA/mm/examples/ota_marshmallow.xml).
 * Upload it to your file hosting and create a hot link of it
-* Copy the [ota_conf template](https://raw.githubusercontent.com/SlimSaber/packages_apps_TurboOTA/lp5.0/examples/ota_conf) to app/src/main/assets folder
+* Copy the [ota_conf template](https://raw.githubusercontent.com/TurboROM/packages_apps_TurboOTA/mm/examples/ota_conf) to app/src/main/assets folder
   * If you are buiding this app as part of the ROM, you need to copy ota_conf in the android root folder.
   * The Android.mk will pick it up and copy it to app/src/main/assets folder automatically.
 * Replace the "ota_url" with your OTA xml hot link
